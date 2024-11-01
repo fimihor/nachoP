@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(235, 235, 105);
+   font-family: "Inter", sans-serif;
+   line-height: 1.5;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+h1,h2,h3,p{
+    color:  hsla(0, 100%, 28%, 1);;
+}
+
+
+/* utillities class */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.btn{
+    padding: 7px 7px;
+    font-weight: 500;
+    border: 1px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.btn-dark{
+    background-color: hsla(0, 100%, 28%, 1);
+    color: white;
+}
+
+.btn:hover{
+    background-color:white;
+        color: hsla(0, 100%, 28%, 1);
+}
+
+.card{
+    background-color: hsla(0, 0%, 100%, 0.82);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: black;
+    width: 300px;
+    
+}
+
+
+
+/* navbar */
+
+
+
+.Navbar,li{
+    margin-left: 35px;
+    list-style-type: none;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(199, 195, 195);
+
+}
+
+a:hover{
+    color:hsla(0, 100%, 28%, 1) ;
+    border-bottom: 1px solid white;
+}
+
+.main-container{
+        width: 1094px;
+        height: 571.93px;
+        top: 179px;
+        left: 541px;
+        gap: 0px;
+        opacity: 0px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+  
+
+.second-imgg{
+    width: 1900px;
+    height: 446px;
+}
+
+.best-text{
+    
+        font-size: 40px;
+        font-weight: 700;
+        /* line-height: 74.1px; */
+        text-align: left;
+}
+
+.last-container h3,h5,h6{
+    font-size: 15px;
+}
+
+
+.footer-logo-text{
+   width: 300px;
+   /* padding:0 10px; */
+    align-items: center;
+        /* text-align: center; */
+        text-transform: capitalize;
+        line-height: 1.5;
+        margin-bottom: 50px;
+    
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+   align-items: center;
+}
+
+
+.use-links{
+    align-items: center;
+    text-align: start;
+    text-transform: capitalize;
+    line-height: 2.0;
+}
+
+
+.main{
+    align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 1.6;
+}
+
+
+.contact{
+    align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        line-height: 1.8;
+}
+
+
+
+
+.Copyright{
+   margin: 0 auto;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   background-color:  hsla(42, 81%, 96%, 0.74);
+   padding: 9px;
+   
+}
